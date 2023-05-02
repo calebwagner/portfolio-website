@@ -160,7 +160,7 @@ sup {
 }
 
 a {
-  color: #ff7a57;
+  /* color: #ff7a57; */
   text-decoration: none;
   background-color: transparent;
 }
@@ -11454,8 +11454,8 @@ pre {
 }
 
 .header {
-  height: 94vh;
-  min-height: 650px;
+  height: 40vh;
+  min-height: 500px;
   border-bottom: 1px solid #dee2e6;
 }
 
@@ -11643,4 +11643,22 @@ pre {
 
 .section.bg-gray {
   background: white;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.grid-item {
+  /* background-color: #ddd; */
+  padding: 20px;
+  text-align: center;
 }
