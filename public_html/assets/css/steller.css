@@ -11662,3 +11662,7 @@ pre {
   padding: 20px;
   text-align: center;
 }
+
+.padding-bottom-3-rem {
+  padding-bottom: 3rem;
+}
